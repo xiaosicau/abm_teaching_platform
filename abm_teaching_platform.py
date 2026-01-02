@@ -2513,6 +2513,21 @@ def main():
                 unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; color: #666;'>从基本原理到农业金融保险应用的完整学习路径</p>", 
                 unsafe_allow_html=True)
+    
+    # 作者信息与版本声明
+    st.markdown("""
+    <div style='text-align: center; background-color: #f0f2f6; padding: 15px; border-radius: 8px; margin: 10px 0;'>
+        <p style='margin: 5px 0; color: #1f77b4; font-weight: bold;'>
+            👨‍🏫 作者：肖诗顺 | 📧 联系邮箱：xiaosicau@qq.com
+        </p>
+        <p style='margin: 5px 0; color: #ff7f0e; font-size: 14px;'>
+            ⚠️ 本平台仅供教学使用，当前为测试版本
+        </p>
+        <p style='margin: 5px 0; color: #888; font-size: 12px;'>
+            四川农业大学经济学院金融系 | 2025
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
     # 推荐阅读与学习资源栏目
     with st.expander("📚 推荐阅读与学习资源", expanded=False):

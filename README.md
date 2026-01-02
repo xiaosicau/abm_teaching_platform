@@ -1,5 +1,10 @@
 # ABM教学实验平台
 
+> 👨‍🏫 **作者**: 肖诗顺 | 📧 **邮箱**: xiaosicau@qq.com  
+> 🏛️ **机构**: 四川农业大学经济学院金融系  
+> ⚠️ **版本说明**: 教学测试版本 v1.0 | 2025年  
+> 🌐 **在线访问**: https://xiaosicauabmteaching.streamlit.app/
+
 ## 项目简介
 
 ABM教学实验平台是一个基于Streamlit开发的交互式学习系统,旨在帮助学习者从原理到应用全面掌握基于智能体建模(Agent-Based Modeling)方法。平台集成了理论讲解、交互实验和案例分析,特别聚焦于金融与农业金融保险领域的ABM应用。
@@ -36,6 +41,12 @@ ABM教学实验平台是一个基于Streamlit开发的交互式学习系统,旨�
 - **数据分析**: Pandas, NumPy
 - **可视化**: Plotly, Matplotlib, NetworkX
 - **网络分析**: NetworkX
+
+## 在线演示
+
+🌐 **在线访问地址**: https://xiaosicauabmteaching.streamlit.app/
+
+无需安装,直接通过浏览器访问在线平台进行学习和实验。
 
 ## 安装指南
 
@@ -83,7 +94,6 @@ streamlit run abm_teaching_platform.py
 ```
 代码/实验平台设计/
 ├── abm_teaching_platform.py    # 主程序文件(3769行)
-├── abm_experiment_platform.py  # 实验平台扩展版本
 ├── requirements.txt            # 依赖包清单
 ├── learning_progress.json      # 学习进度存储(自动生成)
 └── README.md                   # 项目说明文档
@@ -106,12 +116,16 @@ streamlit run abm_teaching_platform.py
 ## 作者信息
 
 **作者**: 肖诗顺  
-**版本**: v1.0 (教学版)  
+**邮箱**: xiaosicau@qq.com  
+**机构**: 四川农业大学经济学院金融系  
+**版本**: v1.0 (教学测试版)  
 **开发时间**: 2025年
 
 ## 许可证
 
-本项目为教学用途开发,遵循开源协议。
+⚠️ **重要声明**: 本平台仅供教学使用,当前为测试版本。
+
+本项目为教学用途开发,遵循开源协议。实验结果仅供学习参考,不构成任何投资或政策建议。
 
 ## 参考资源
 
@@ -124,11 +138,3 @@ streamlit run abm_teaching_platform.py
 ## 问题反馈
 
 如遇到问题或有改进建议,请通过GitHub Issues提交。
-
----
-
-**注**: 本平台为教学实验工具,实验结果仅供学习参考,不构成任何投资或政策建议。
-=======
-# abm_teaching_platform
-abm_teaching_platform
->>>>>>> 400e37810ce6de3880f75b92fe843380736ff63f
